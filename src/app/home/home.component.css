@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+}
+
+.logo {
+    width: 75px;
+    height: 35px;
+    background-image: url(../assets/logo.svg);
+    background-repeat: no-repeat;
+}
+
+.menu {
+    background-color: #1F3641;
+    width: 460px;
+    height: 200px;
+}
+
+.choice-player {
+    width: 413px;
+    height: 75px;
+    background-color: #1A2A33;
+}
