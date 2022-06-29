@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-.container {
-
-}
-
 .logo {
     width: 75px;
     height: 35px;
@@ -24,4 +20,40 @@
     width: 413px;
     height: 75px;
     background-color: #1A2A33;
+    display: flex;
+    padding: 7px;
+}
+
+label {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    border: 1px solid red;
+}
+
+label input {
+    display: none;
+}
+
+svg{
+    width: 32px;
+    height: 32px;
+}
+
+.choice{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+input:checked + .choice::before{
+    position: absolute;
+    content: "";
+    background-color: #DBE8ED;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
